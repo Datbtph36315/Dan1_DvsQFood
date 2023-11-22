@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "554978485403",
+    "firebase_url": "https://duan1-eb966-default-rtdb.firebaseio.com",
+    "project_id": "duan1-eb966",
+    "storage_bucket": "duan1-eb966.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554978485403:android:233427cb785e9596b2d23e",
+        "android_client_info": {
+          "package_name": "com.example.DvsQFood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFPcLfVOFxuFx9S9ucBvuAF8EIVAI7b0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

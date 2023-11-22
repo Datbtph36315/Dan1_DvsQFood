@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F44336"
+    android:gravity="center"
+    tools:context=".Login.SignUp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardMaxElevation="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đăng ký"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="36dp"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/edt_Phone"
+                android:layout_marginTop="40dp"
+                android:padding="8dp"
+                android:hint="Phone"
+                android:drawableLeft="@drawable/baseline_phone_24"
+                android:drawablePadding="5dp"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/edt_User"
+                android:layout_marginTop="40dp"
+                android:padding="8dp"
+                android:hint="Tên"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="5dp"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/edt_Password"
+                android:layout_marginTop="40dp"
+                android:padding="8dp"
+                android:hint="Password"
+                android:drawableLeft="@drawable/baseline_password_24"
+                android:drawablePadding="5dp"
+                android:textColor="@color/black"
+                />
+
+            <Button
+                android:id="@+id/btn_dangKy"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Đăng Ký"
+                android:background="@color/dividerColor"
+                android:textSize="18dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/dangNhapText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bạn đã có tài khoản? Đăng nhập"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
